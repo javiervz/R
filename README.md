@@ -1,1 +1,1 @@
-# R
+# Estadística para lingüistas con R
