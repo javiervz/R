@@ -22,6 +22,7 @@ a <- 3
 b <- 5
 ## operaciones básicas entre números!
 ## EJERCICIO: Sume 1 a la variable a. 
+
 ## EJERCICIO: Defina una variable c que sea el resultado del uso de varias operaciones entre a y b. 
 
 ## 2. strings: cadenas de caracteres (se escriben entre "")
