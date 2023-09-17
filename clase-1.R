@@ -1,4 +1,7 @@
 # Estadística para lingüistas en R (una introducción)
+# Javier Vera Zúñiga
+# jveraz@pucp.edu.pe
+
 ## https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0129031
 # 
 # ¿Qué es R?
