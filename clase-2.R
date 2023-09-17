@@ -56,11 +56,11 @@ print(b)
 # EJERCICIO! Defina una variable booleana que consulte si un elemento está en lista_num. Si no está, agréguelo.
 
 # EJERCICIO! Defina un vector nulo con c(). Recorra con un ciclo for el vector lista_strings. En cada paso,
-# guarde la palabra en el vector c.
+# guarde la palabra en el vector c. ¿Qué obtiene?
 
 # EJERCICIO! Defina un vector nulo con c(). Recorra con un ciclo for el vector lista_strings. En cada paso,
 # guarde la palabra en el vector c solo si NO está. ¿Qué obtiene?
 
 # EJERCICIO! Defina una lista de números. Calcule el promedio de la lista de números. Defina un vector nulo con c(). 
 # Para cada número, eleve al cuadrado la resta entre el número y el promedio. Ese pequeño resultado guárdelo en c. 
-# Finalmente, calcule el promedio del nuevo vector.
+# Finalmente, calcule el promedio del nuevo vector. 
