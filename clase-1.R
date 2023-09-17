@@ -43,9 +43,10 @@ n <- nchar(s)
 a = T
 b = F
 c = 2 < 3
+d = 3 == 4
 # combinación de valores de verdad: and y or
-d = 2 < 3 & 3 < 4
-e = 2 < 3 | 3 < 4
+e = 2 < 3 & 3 < 4
+f = 2 < 3 | 3 < 4
 ## EJERCICIO: Determine si una palabra termina en vocal. Use endsWith('**', '*')
 
 ## 4. vectores: listas de números
@@ -55,4 +56,15 @@ vnum <- 1:10
 lista_num <- c(16, 12, 21, 3, 5, 8, 13, 21, 34)
 ## con length obtenemos el largo de un vector
 n <- length(lista_num)
+
 ## EJERCICIO: Calcule el promedio de los números de lista_num
+
+# También puede transformarse un string en una lista de strings
+texto <- 'tengo dos gatos uno se llama sustantivo y la otra virgencita los gatos han estado en dos países'
+
+# librería
+library("stringr")
+
+#dividimos por espacios en blanco
+lista_palabras <- str_split(texto, ' ')
+lista_palabras
