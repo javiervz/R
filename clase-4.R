@@ -67,4 +67,4 @@ res
 
 ## EJERCICIO! Calcule la correlación entre otras dos variables del dataframe datos1
 ## EJERCICIO! Calcule la correlación entre TTR y todas las otras variables. Use la versión filtrada para lenguas que tengan al menos 27 rasgos en WALS
-## EJERCICIO! vER https://r-graph-gallery.com/index.html
+## EJERCICIO! VER https://r-graph-gallery.com/index.html
