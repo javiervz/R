@@ -48,7 +48,19 @@ datos_filtrados <- datos1[,c("C_WALS","C_TTR")]
 datos_filtrados
 
 ## dos histogramas
-hist(datos_filtrados$C_WALS)
+library(plotly)
+fig <- plot_ly(x = ~datos_filtrados$C_WALS,
+               
+               type = "histogram",
+               histnorm = "probability")
+fig
+
+fig <- plot_ly(alpha = 0.6)
+fig <- fig %>% add_histogram(x = ~datos_filtrados$C_WALS)
+fig <- fig %>% add_histogram(x = ~datos_filtrados$C_TTR)
+fig <- fig %>% layout(barmode = "overlay", title = 'TTR vs C_WALS', plot_bgcolor = "#e5ecf6", xaxis = list(title = 'valor'), 
+                                            yaxis = list(title = 'freuencia'), legend = list(title=list(text='<b> medida </b>')))
+fig
 
 ## descripción de todos los datos
 summary(datos_filtrados)
