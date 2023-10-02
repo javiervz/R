@@ -50,4 +50,10 @@ main="Evolución del vocabulario")
 ## linea de ajuste
 abline(model)
 
+## detalles modelo
+attributes(model)
+
+## coeficientes
+model$coefficients
+
 ## EJERCICIO! Ajuste una recta que permita predecir el promedio de los valores de vocab a partir de la edad
